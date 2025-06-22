@@ -29,7 +29,7 @@
         <ul class="dropdown-menu">
                     <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
                         <li class="controller">
-                            <g:link controller="${c.logicalPropertyName}">${c.fullName.split("=")[0]}}</g:link>
+                            <g:link controller="${c.logicalPropertyName}">${c.fullName.replace(".","=").split("=")[1]-"Controller"}</g:link>
                         </li>
                     </g:each>
         </ul>
