@@ -1,0 +1,6 @@
+#Sat, 21 Jun 2025 19:50:12 -0400
+
+info.app.version=0.1
+info.app.name=persona
+grails.env=development
+info.app.grailsVersion=5.2.3
