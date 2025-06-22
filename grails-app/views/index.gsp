@@ -62,15 +62,27 @@
 <div id="content" role="main">
     <div class="container">
         <section class="row colset-2-its">
-            <h1>Welcome to Grails</h1>
+            <h1>Menu de Carlos Ocando</h1>
 
-            <p>
+            <%-- <p>
                 Congratulations, you have successfully started your first Grails application! At the moment
                 this is the default page, feel free to modify it to either redirect to a controller or display
                 whatever content you may choose. Below is a list of controllers that are currently deployed in
                 this application, click on each to execute its default action:
-            </p>
-
+            </p> --%>
+            <div class="container flex flex-column flex-justify-center">
+                <ul>
+                    <li><g:link controller="Direccion" action="index">Ver direccions</g:link></li>
+                    <li><g:link controller="Estudio" action="index">Ver estudios</g:link></li>
+                    <li><g:link controller="Pasantias" action="index">Ver pasantias</g:link></li>
+                </ul>
+            </div>
+            <div class="container flex flex-column flex-justify-center">
+                <ul>
+                    <li><g:link controller="Persona" action="index">Ver personas</g:link></li>
+                    <li><g:link controller="Direccion" action="index">Ver direccion</g:link></li>
+                </ul>
+            </div>
             <div id="controllers" role="navigation">
                 <%-- <h2>Available Controllers:</h2>
                 <ul>
