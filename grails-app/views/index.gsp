@@ -72,15 +72,17 @@
             </p> --%>
             <div class="container flex flex-column flex-justify-center">
                 <ul>
-                    <li><g:link controller="Direccion" action="index">Ver direccions</g:link></li>
-                    <li><g:link controller="Estudio" action="index">Ver estudios</g:link></li>
-                    <li><g:link controller="Pasantias" action="index">Ver pasantias</g:link></li>
+                    <li><button style="margin-bottom: 16px;" class="btn-primary" onclick="window.location.href='${createLink(controller: 'Direccion', action: 'index')}';">Ver Direcciones</button>
+</li>
+                    <li><button style="margin-bottom: 16px;" class="btn-primary" onclick="window.location.href='${createLink(controller: 'Estudio', action: 'index')}';">Ver Estudios</button>
+</li>
+                    <li><button style="margin-bottom: 16px;" class="btn-primary" onclick="window.location.href='${createLink(controller: 'Pasantias', action: 'index')}';">Ver pasantias</button></li>
                 </ul>
             </div>
             <div class="container flex flex-column flex-justify-center">
                 <ul>
-                    <li><g:link controller="Persona" action="index">Ver personas</g:link></li>
-                    <li><g:link controller="Direccion" action="index">Ver direccion</g:link></li>
+                    <li><button style="margin-bottom: 16px;" class="btn-primary" onclick="window.location.href='${createLink(controller: 'Persona', action: 'index')}';">Ver Persona</button></li>
+                    <li><button style="margin-bottom: 16px;" class="btn-primary" onclick="window.location.href='${createLink(controller: 'Direccion', action: 'index')}';">Ver Direccion</button></li>
                 </ul>
             </div>
             <div id="controllers" role="navigation">
