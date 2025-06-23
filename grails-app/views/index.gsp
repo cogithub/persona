@@ -131,7 +131,7 @@
                     </div>
 
                     <button class="btn btn-primary">
-                        <i class="fas fa-address-book"></i> Ver Direcciones
+                        <i class="fas fa-user"></i> Ver Direcciones
                     </button>
 
                     <div class="container flex flex-column flex-justify-center">
@@ -139,11 +139,11 @@
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class=" btn btn-primary"
                                     onclick="window.location.href='${createLink(controller: 'Persona', action: 'index')}';">
-                                    <p class="fas fa-user">Ver Persona</p> 
+                                    Ver Persona
                                 </button>
                             </li>
                             <li>
-                                <button style="margin-bottom: 16px; width: 200px;" class="fas fa-user btn btn-primary"
+                                <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
                                     onclick="window.location.href='${createLink(controller: 'Profesion', action: 'index')}';">
                                     Ver Profesion
                                 </button>

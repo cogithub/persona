@@ -1,6 +1,10 @@
 
 
 
+.fas.fa-user {
+  color: #007bff;       /* Azul Bootstrap */
+  font-size: 24px;      /* Tamaño personalizado */
+}
 
 body,
 input, select, textarea {
