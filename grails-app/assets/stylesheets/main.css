@@ -1,11 +1,6 @@
 
 
 
-.fas.fa-user {
-  color: #007bff;       /* Azul Bootstrap */
-  font-size: 24px;      /* Tamaño personalizado */
-}
-
 body,
 input, select, textarea {
     font-family: "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

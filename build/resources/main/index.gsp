@@ -111,24 +111,28 @@
                         <ul>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
-                                    onclick="window.location.href='${createLink(controller: 'Direccion', action: 'index')}';">
+                                        onclick="window.location.href='${createLink(controller: 'Direccion', action: 'index')}';">
                                     Ver Direcciones
                                 </button>
                             </li>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
-                                    onclick="window.location.href='${createLink(controller: 'Estudio', action: 'index')}';">
+                                        onclick="window.location.href='${createLink(controller: 'Estudio', action: 'index')}';">
                                     Ver Estudios
                                 </button>
                             </li>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
-                                    onclick="window.location.href='${createLink(controller: 'Pasantias', action: 'index')}';">
+                                        onclick="window.location.href='${createLink(controller: 'Pasantias', action: 'index')}';">
                                     Ver Pasantías
                                 </button>
                             </li>
                         </ul>
                     </div>
+
+                    <i class="fas fa-user">afdas</i>  <!-- Ícono de usuario -->
+                    <i class="fas fa-home">sfsa</i>  <!-- Ícono de casa -->
+                    <i class="fas fa-envelope">asfadf</i>  <!-- Ícono de correo -->
 
                     <button class="btn btn-primary">
                         <i class="fas fa-address-book"></i> Ver Direcciones
@@ -138,13 +142,13 @@
                         <ul>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class=" btn btn-primary"
-                                    onclick="window.location.href='${createLink(controller: 'Persona', action: 'index')}';">
+                                        onclick="window.location.href='${createLink(controller: 'Persona', action: 'index')}';">
                                     <p class="fas fa-user">Ver Persona</p> 
                                 </button>
                             </li>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="fas fa-user btn btn-primary"
-                                    onclick="window.location.href='${createLink(controller: 'Profesion', action: 'index')}';">
+                                        onclick="window.location.href='${createLink(controller: 'Profesion', action: 'index')}';">
                                     Ver Profesion
                                 </button>
                             </li>

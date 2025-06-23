@@ -3,7 +3,10 @@
     <head>
         <meta name="layout" content="main"/>
         <title>Welcome to Grails</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     </head>
+
     <body>
         <content tag="nav">
             <li class="dropdown">
