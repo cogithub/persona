@@ -115,40 +115,38 @@
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
                                     onclick="window.location.href='${createLink(controller: 'Direccion', action: 'index')}';">
-                                    Ver Direcciones
+                                    <i class="fas fa-edit"></i> Ver Direcciones
                                 </button>
                             </li>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
                                     onclick="window.location.href='${createLink(controller: 'Estudio', action: 'index')}';">
-                                    Ver Estudios
+                                    <i class="fas fa-edit"></i> Ver Estudios
                                 </button>
                             </li>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
                                     onclick="window.location.href='${createLink(controller: 'Pasantias', action: 'index')}';">
-                                    Ver Pasantías
+                                    <i class="fas fa-edit"></i> Ver Pasantías
                                 </button>
                             </li>
                         </ul>
                     </div>
 
-                    <button class="btn btn-primary">
-                        <i class="fas fa-user"></i> Ver Direcciones
-                    </button>
+                
 
                     <div class="container flex flex-column flex-justify-center">
                         <ul>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class=" btn btn-primary"
                                     onclick="window.location.href='${createLink(controller: 'Persona', action: 'index')}';">
-                                    Ver Persona
+                                    <i class="fas fa-edit"></i> Ver Persona
                                 </button>
                             </li>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
                                     onclick="window.location.href='${createLink(controller: 'Profesion', action: 'index')}';">
-                                    Ver Profesion
+                                    <i class="fas fa-edit"></i> Ver Profesion
                                 </button>
                             </li>
                         </ul>

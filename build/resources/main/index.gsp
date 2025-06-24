@@ -3,7 +3,10 @@
     <head>
         <meta name="layout" content="main"/>
         <title>Welcome to Grails</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
     </head>
+
     <body>
         <content tag="nav">
             <li class="dropdown">
@@ -111,44 +114,40 @@
                         <ul>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
-                                        onclick="window.location.href='${createLink(controller: 'Direccion', action: 'index')}';">
+                                    onclick="window.location.href='${createLink(controller: 'Direccion', action: 'index')}';">
                                     Ver Direcciones
                                 </button>
                             </li>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
-                                        onclick="window.location.href='${createLink(controller: 'Estudio', action: 'index')}';">
+                                    onclick="window.location.href='${createLink(controller: 'Estudio', action: 'index')}';">
                                     Ver Estudios
                                 </button>
                             </li>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
-                                        onclick="window.location.href='${createLink(controller: 'Pasantias', action: 'index')}';">
+                                    onclick="window.location.href='${createLink(controller: 'Pasantias', action: 'index')}';">
                                     Ver Pasantías
                                 </button>
                             </li>
                         </ul>
                     </div>
 
-                    <i class="fas fa-user">afdas</i>  <!-- Ícono de usuario -->
-                    <i class="fas fa-home">sfsa</i>  <!-- Ícono de casa -->
-                    <i class="fas fa-envelope">asfadf</i>  <!-- Ícono de correo -->
-
                     <button class="btn btn-primary">
-                        <i class="fas fa-address-book"></i> Ver Direcciones
+                        <i class="fas fa-user"></i> Ver Direcciones
                     </button>
 
                     <div class="container flex flex-column flex-justify-center">
                         <ul>
                             <li>
                                 <button style="margin-bottom: 16px; width: 200px;" class=" btn btn-primary"
-                                        onclick="window.location.href='${createLink(controller: 'Persona', action: 'index')}';">
-                                    <p class="fas fa-user">Ver Persona</p> 
+                                    onclick="window.location.href='${createLink(controller: 'Persona', action: 'index')}';">
+                                    Ver Persona
                                 </button>
                             </li>
                             <li>
-                                <button style="margin-bottom: 16px; width: 200px;" class="fas fa-user btn btn-primary"
-                                        onclick="window.location.href='${createLink(controller: 'Profesion', action: 'index')}';">
+                                <button style="margin-bottom: 16px; width: 200px;" class="btn btn-primary"
+                                    onclick="window.location.href='${createLink(controller: 'Profesion', action: 'index')}';">
                                     Ver Profesion
                                 </button>
                             </li>
